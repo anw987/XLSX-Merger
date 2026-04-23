@@ -3,12 +3,12 @@ This project is a Python-based tool to read multiple Excel files, transform and 
 
 ## Overview
 The generated Excel file includes:
-*Multiple sheets
-Custom headers and layout
-Styled tables (colors, alternating rows)
-Charts (bar and pie)
-Auto-sized columns
-Timestamp-based filename
+- Multiple sheets
+- Custom headers and layout
+- Styled tables (colors, alternating rows)
+- Charts (bar and pie)
+- Auto-sized columns
+- Timestamp-based filename
 
 Output file format:
 Report-yymmddhhmm.xlsx
@@ -17,10 +17,10 @@ Libraries Used:
 ##1. Pandas
 
 Used for:
-Reading Excel files
-Data transformation and filtering
-Column reordering
-Pivoting data for charts
+- Reading Excel files
+- Data transformation and filtering
+- Column reordering
+- Pivoting data for charts
 
 Install:
 ```bash
@@ -30,11 +30,11 @@ pip install pandas
 ##2. Openpyxl
 
 Used for:
-Writing Excel files
-Styling cells (font, color, alignment)
-Adjusting column widths
-Creating charts (bar, pie)
-Positioning elements inside sheets
+- Writing Excel files
+- Styling cells (font, color, alignment)
+- Adjusting column widths
+- Creating charts (bar, pie)
+- Positioning elements inside sheets
 
 Install:
 ```bash
@@ -59,7 +59,7 @@ pip install pyinstaller
 ```
 
 ##Project Preparation
-Install Python (recommended version: 3.9 or higher)
+1. Install Python (recommended version: 3.9 or higher)
 2. Install required libraries:
 ```bash
 pip install pandas openpyxl pyinstaller
@@ -77,17 +77,17 @@ After execution, a new Excel file will be generated:
 Report-<timestamp>.xlsx
 
 ##Features
-Merge multiple Excel files into one workbook
-Custom header insertion and layout control
-Column reordering and data manipulation
-Constant value injection into columns
-Alternating row color styling
-Auto-adjust column width based on content
-Bar chart for time-series data
-Pie chart for summary metrics
-Dynamic chart positioning
-Dashboard-style formatting
-Building the Executable (.exe)
+- Merge multiple Excel files into one workbook
+- Custom header insertion and layout control
+- Column reordering and data manipulation
+- Constant value injection into columns
+- Alternating row color styling
+- Auto-adjust column width based on content
+- Bar chart for time-series data
+- Pie chart for summary metrics
+- Dynamic chart positioning
+- Dashboard-style formatting
+- Building the Executable (.exe)
 
 Basic build
 ```bash
@@ -121,13 +121,13 @@ Run merge.exe
 No Python installation is required on the target machine.
 
 ##Notes
-Ensure input file names match exactly
-Avoid opening the output file while running the script
-Processing time depends on file size
-Chart rendering may vary slightly across Excel versions
-Possible Enhancements
-Add configuration file for flexible input paths
-Add logging mechanism
-Support dynamic data structures
+- Ensure input file names match exactly
+- Avoid opening the output file while running the script
+- Processing time depends on file size
+- Chart rendering may vary slightly across Excel versions
+- Possible Enhancements
+- Add configuration file for flexible input paths
+- Add logging mechanism
+- Support dynamic data structures
 Improve dashboard layout and styling
 Add CLI parameters for customization
