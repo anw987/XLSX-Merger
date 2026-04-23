@@ -14,7 +14,7 @@ Output file format:
 Report-yymmddhhmm.xlsx
 
 Libraries Used: 
-##1. Pandas
+## 1. Pandas
 
 Used for:
 - Reading Excel files
@@ -27,7 +27,7 @@ Install:
 pip install pandas
 ```
 
-##2. Openpyxl
+## 2. Openpyxl
 
 Used for:
 - Writing Excel files
@@ -41,14 +41,14 @@ Install:
 pip install openpyxl
 ```
 
-##3. datetime (built-in)
+## 3. datetime (built-in)
 
 Used for:
 Generating dynamic filename with timestamp
 
 No installation required.
 
-##4. PyInstaller
+## 4. PyInstaller
 
 Used for:
 Converting the Python script into a standalone executable (.exe)
@@ -58,7 +58,7 @@ Install:
 pip install pyinstaller
 ```
 
-##Project Preparation
+## Project Preparation
 1. Install Python (recommended version: 3.9 or higher)
 2. Install required libraries:
 ```bash
@@ -76,7 +76,7 @@ python merge.py
 After execution, a new Excel file will be generated:
 Report-<timestamp>.xlsx
 
-##Features
+## Features
 - Merge multiple Excel files into one workbook
 - Custom header insertion and layout control
 - Column reordering and data manipulation
@@ -120,7 +120,7 @@ Run merge.exe
 
 No Python installation is required on the target machine.
 
-##Notes
+## Notes
 - Ensure input file names match exactly
 - Avoid opening the output file while running the script
 - Processing time depends on file size
